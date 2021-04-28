@@ -1,0 +1,75 @@
+// Grid
+$content-max: 1240px;
+
+// Breakpoints
+$break-xs: 425px;
+$break-sm: 600px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+
+// Media Queries
+$break-xs-up: "screen and (min-width: #{$break-xs})";
+$break-sm-up: "screen and (min-width: #{$break-sm})";
+$break-md-up: "screen and (min-width: #{$break-md})";
+$break-lg-up: "screen and (min-width: #{$break-lg})";
+$break-xl-up: "screen and (min-width: #{$break-xl})";
+
+$break-xs-down: "screen and (max-width: #{$break-xs - 1})";
+$break-sm-down: "screen and (max-width: #{$break-sm - 1})";
+$break-md-down: "screen and (max-width: #{$break-md - 1})";
+$break-lg-down: "screen and (max-width: #{$break-lg - 1})";
+$break-xl-down: "screen and (max-width: #{$break-xl - 1})";
+
+$break-sm-square-up: "screen and (min-width: #{$break-sm}) and (min-height: #{$break-sm})";
+$break-sm-square-down: "screen and (max-width: #{$break-sm - 1}), screen and (max-height: #{$break-sm - 1})";
+
+// Usage:
+// @media #{$break-md-up} {}
+
+// Colors
+$white: #fff;
+$blue: #003fff;
+$green: #22ff00;
+$turquoise: #07f2f1;
+$pink: #f52d83;
+$black: #000;
+
+// Spacing
+$section-bottom-mobile: 65px;
+$section-bottom: 80px;
+
+// Font Families
+$font-family: "Geomanist", sans-serif;
+
+// Font Weights
+$font-weight-regular: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+$font-weight-black: 800;
+
+// Font Sizes
+$font-size-body-xs-mobile: 16px;
+$font-size-body-xs: 18px;
+$font-size-body-mobile: 20px;
+$font-size-body: 24px;
+$font-size-button: 18px;
+$font-size-h1-mobile: 60px;
+$font-size-h1: 125px;
+$font-size-h2-mobile: 36px;
+$font-size-h2: 48px;
+$font-size-h3-mobile: 28px;
+$font-size-h3: 32px;
+$font-size-h4-mobile: 20px;
+$font-size-h4: 24px;
+
+// Line Height
+$line-height-body: 1.5;
+$line-height-heading: 1.2;
+$line-height-button: 1;
+
+// Transitions
+$transition-speed: 0.2s;
+$transition-speed-fast: 0.1s;
+$transition-speed-slow: 0.3s;
+$transition-easing: ease-in-out;

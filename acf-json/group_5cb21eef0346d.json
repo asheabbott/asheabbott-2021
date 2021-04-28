@@ -1,0 +1,243 @@
+{
+    "key": "group_5cb21eef0346d",
+    "title": "Project Information",
+    "fields": [
+        {
+            "key": "field_6087414962908",
+            "label": "Buttons",
+            "name": "project_buttons",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Button",
+            "sub_fields": [
+                {
+                    "key": "field_6087414962909",
+                    "label": "Button",
+                    "name": "button",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        },
+        {
+            "key": "field_6088421c55d60",
+            "label": "Technical Summary",
+            "name": "project_tech_summary",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d6423d3269ef",
+            "label": "Contributions",
+            "name": "project_contributions",
+            "type": "checkbox",
+            "instructions": "Select your contributions to the project.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Website Strategy": "Website Strategy",
+                "Information Architecture": "Information Architecture",
+                "Usability Testing": "Usability Testing",
+                "User Experience Design": "User Experience Design",
+                "Website Accessibility": "Website Accessibility",
+                "Website Design": "Website Design",
+                "App Design": "App Design",
+                "Email Design": "Email Design",
+                "Front-End Development": "Front-End Development",
+                "WordPress Development": "WordPress Development",
+                "Email Development": "Email Development",
+                "Twixl Development": "Twixl Development",
+                "HubSpot Development": "HubSpot Development"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "label",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5d6423df269f0",
+            "label": "Awards",
+            "name": "project_awards",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d6423df269f1",
+                    "label": "Award",
+                    "name": "award",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5d6423eb269f2",
+            "label": "Agency work?",
+            "name": "project_agency",
+            "type": "select",
+            "instructions": "Please select whether this is agency work.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no": "No",
+                "Beyond Definition (formerly Bates Creative)": "Yes, for Beyond Definition"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d642408269f3",
+            "label": "Video",
+            "name": "project_video",
+            "type": "text",
+            "instructions": "Please enter the Vimeo ID for the website video.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d64235eea0f9",
+            "label": "Screenshots",
+            "name": "project_screenshots",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Screenshot",
+            "sub_fields": [
+                {
+                    "key": "field_5d642386ea0fa",
+                    "label": "Screenshot",
+                    "name": "screenshot",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "projects"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1619542581
+}

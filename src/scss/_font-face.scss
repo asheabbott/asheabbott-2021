@@ -1,0 +1,97 @@
+// GEOMANIST
+
+// 400 - Regular
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-regular-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-regular-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 400 - Regular Italic
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-regular-italic-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-regular-italic-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 600 - Medium
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-medium-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-medium-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 600 - Medium Italic
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-medium-italic-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-medium-italic-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 700 - Bold
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-bold-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-bold-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 700 - Bold Italic
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-bold-italic-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-bold-italic-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 800 - Black
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-black-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-black-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+// 800 - Black Italic
+
+@font-face {
+  font-family: "Geomanist";
+  font-style: italic;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/geomanist/geomanist-black-italic-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-black-italic-webfont.woff") format("woff");
+  font-display: swap;
+}

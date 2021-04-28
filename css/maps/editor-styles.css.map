@@ -1,0 +1,1 @@
+{"version":3,"sources":["_editor.scss"],"names":[],"mappings":"AAGA,UACE,UAAA","file":"../editor-styles.css","sourcesContent":["// WP BLOCK EDITOR STYLES\r\n\r\n// limit block editor content width based on website design max-width\r\n.wp-block {\r\n  max-width: $content-max;\r\n}"]}

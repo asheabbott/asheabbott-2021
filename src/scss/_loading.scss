@@ -1,0 +1,69 @@
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $black;
+  z-index: 99999;
+
+  .loading-icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+    & > div {
+      position: absolute;
+      opacity: 0;
+
+      &.letter-a {
+        animation: letter-a 2s infinite;
+      }
+
+      &.letter-s {
+        animation: letter-s 2s infinite;
+      }
+
+      &.letter-h {
+        animation: letter-h 2s infinite;
+      }
+
+      &.letter-e {
+        animation: letter-e 2s infinite;
+      }
+
+      svg {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+  
+        use {
+          fill: $white;
+        }
+      }
+    }
+  }
+}
+
+@keyframes letter-a {
+  0%, 20%, 100% { opacity: 0; }
+  1%, 19% { opacity: 1; }
+}
+
+@keyframes letter-s {
+  0%, 24%, 45%, 100% { opacity: 0; }
+  25%, 44% { opacity: 1; }
+}
+
+@keyframes letter-h {
+  0%, 49%, 70%, 100% { opacity: 0; }
+  50%, 69% { opacity: 1; }
+}
+
+@keyframes letter-e {
+  0%, 74%, 95%, 100% { opacity: 0; }
+  75%, 94% { opacity: 1; }
+}

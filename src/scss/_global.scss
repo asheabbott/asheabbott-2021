@@ -1,0 +1,73 @@
+html,
+body {
+  background-color: $white;
+  overflow-x: hidden;
+  text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  position: relative;
+  font-family: $font-family;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-body-mobile;
+  line-height: $line-height-body;
+
+  @media #{$break-sm-up} {
+    font-size: $font-size-body;
+  }
+}
+
+main {
+  margin-bottom: 65px;
+  padding-bottom: 1px;
+  background-color: $white;
+  transition: transform $transition-speed $transition-easing;
+}
+
+.page-header {
+  margin-bottom: $section-bottom-mobile;
+  padding-bottom: 30px;
+
+  @media #{$break-sm-up} {
+    margin-bottom: $section-bottom;
+    padding-bottom: 50px;
+  }
+}
+
+section {
+  margin-bottom: $section-bottom-mobile;
+
+  @media #{$break-sm-up} {
+    margin-bottom: $section-bottom;
+  }
+}
+
+.container {
+  @include container;
+}
+
+.flex {
+  display: flex;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+::selection {
+  background-color: $turquoise;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s $transition-easing, transform $transition-speed $transition-easing;
+}
+
+body.loaded {
+  .animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
